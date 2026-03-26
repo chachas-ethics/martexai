@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -135,17 +135,17 @@
 <div class="support-bg min-h-screen">
 
   <!-- HEADER: NEON EDITORIAL STYLE -->
-  <header class="relative pt-32 pb-20 text-center overflow-hidden">
+  <header id="home" class="relative pt-32 pb-20 text-center overflow-hidden">
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-blue-500/50 to-transparent"></div>
     
     <div class="inline-block px-3 py-1 mb-6 border border-blue-500/30 rounded-full bg-blue-500/10">
       <span class="text-[10px] font-mono tracking-[0.3em] text-blue-400 uppercase font-bold">Clinical Systems Support</span>
     </div>
     
-    <h1 class="text-5xl md:text-7xl font-extrabold text-white tracking-tighter mb-6">
-      Precision <span class="text-transparent bg-clip-text bg-gradient-to-b from-white to-slate-500">Concierge.</span>
+    <h1 style="font-family: abril-fatface;" class="text-6xl md:text-7xl font-extrabold text-blue-950 tracking-tighter mb-6">
+      Precision <span class="text-transparent bg-clip-text bg-gradient-to-b from-green-300 to-green-600">Concierge.</span>
     </h1>
-    <p class="max-w-2xl mx-auto text-slate-400 text-lg font-light leading-relaxed px-6">
+    <p class="max-w-2xl mx-auto text-slate-600 text-lg font-light leading-relaxed px-6">
       Access global technical resources, rapid maintenance protocols, and direct engineering channels for your ICTG units.
     </p>
   </header>
@@ -155,37 +155,35 @@
     <div class="grid grid-cols-1 md:grid-cols-6 gap-6">
 
       <!-- Technical Support (Wide) -->
-      <a href="#" class="md:col-span-4 support-module p-10 rounded-[2.5rem] group">
+      <a  class="md:col-span-4 support-module p-10 rounded-[2.5rem] group">
         <div class="flex flex-col md:flex-row gap-8 items-start md:items-center">
-          <div class="icon-box w-20 h-20 rounded-3xl bg-blue-500/10 flex items-center justify-center text-blue-500">
+          <div class="icon-box w-20 h-20 rounded-3xl bg-green-600 flex items-center justify-center text-white">
             <svg class="w-10 h-10" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
           </div>
           <div>
-            <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-blue-400 transition">Technical Diagnostics</h3>
-            <p class="text-slate-400 max-w-md">Remote troubleshooting, firmware calibration, and system integration help for hospital IT departments.</p>
+            <h3 style="font-family: abril-fatface;" class="text-3xl font-bold text-blue-950 mb-5  transition">Technical Diagnostics</h3>
+            <p class="text-slate-600 max-w-md">Remote troubleshooting, firmware calibration, and system integration help for hospital IT departments.</p>
           </div>
-          <div class="ml-auto opacity-0 group-hover:opacity-100 transition-all transform translate-x-4 group-hover:translate-x-0 hidden md:block">
-            <svg class="w-8 h-8 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-          </div>
+         
         </div>
       </a>
 
       <!-- Warranty (Small) -->
-      <a href="#" class="md:col-span-2 support-module p-10 rounded-[2.5rem] group">
-        <div class="icon-box w-14 h-14 rounded-2xl bg-emerald-500/10 flex items-center justify-center text-emerald-500 mb-6">
+      <a class="md:col-span-2 support-module p-10 rounded-[2.5rem] group">
+        <div class="icon-box w-14 h-14 rounded-2xl bg-green-600 flex items-center justify-center text-white mb-6">
           <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white mb-2">Warranty Center</h3>
-        <p class="text-sm text-slate-400">Claims, extended coverage plans, and repair status tracking.</p>
+        <h3 style="font-family: abril-fatface;" class="text-3xl font-bold text-blue-950 mb-5">Warranty Center</h3>
+        <p class="text-sm text-slate-600">Claims, extended coverage plans, and repair status tracking.</p>
       </a>
 
       <!-- Downloads (Small) -->
-      <a href="#" class="md:col-span-2 support-module p-10 rounded-[2.5rem] group">
-        <div class="icon-box w-14 h-14 rounded-2xl bg-purple-500/10 flex items-center justify-center text-purple-500 mb-6">
+      <a class="md:col-span-2 support-module p-10 rounded-[2.5rem] group">
+        <div class="icon-box w-14 h-14 rounded-2xl bg-green-600 flex items-center justify-center text-white mb-6">
           <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
         </div>
-        <h3 class="text-xl font-bold text-white mb-2">Resource Library</h3>
-        <p class="text-sm text-slate-400">PDF Manuals, Clinical Studies, and Installation Datasheets.</p>
+        <h3 style="font-family: abril-fatface;" class="text-3xl font-bold text-blue-950 mb-5">Resource Library</h3>
+        <p class="text-sm text-slate-600">PDF Manuals, Clinical Studies, and Installation Datasheets.</p>
       </a>
 
       <!-- Service Request (Wide) -->
@@ -195,8 +193,8 @@
             <svg class="w-10 h-10" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
           </div>
           <div>
-            <h3 class="text-2xl font-bold text-white mb-2 group-hover:text-orange-400 transition">On-Site Service Request</h3>
-            <p class="text-slate-400 max-w-md">Schedule an authorized technician for annual maintenance, calibration, or emergency hardware repair.</p>
+            <h3 style="font-family: abril-fatface;" class="text-3xl font-bold text-blue-950  mb-5  transition">On-Site Service Request</h3>
+            <p class="text-slate-600 max-w-md">Schedule an authorized technician for annual maintenance, calibration, or emergency hardware repair.</p>
           </div>
         </div>
       </a>
@@ -205,7 +203,7 @@
   </section>
 
   <!-- SECONDARY CONTACT SECTION -->
-  <footer class="max-w-4xl mx-auto px-6 pb-32 text-center">
+  <div class="max-w-4xl mx-auto px-6 pb-32 text-center">
     <div class="p-12 rounded-[3rem] bg-gradient-to-br from-slate-800 to-slate-900 border border-white/10 shadow-2xl relative overflow-hidden">
       <div class="absolute top-0 right-0 p-8 opacity-10">
         <svg class="w-32 h-32 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M21 6h-2l-1-2H6L5 6H3v2h2l1 12h12l1-12h2V6z"/></svg>
@@ -215,11 +213,11 @@
       <p class="text-slate-400 mb-8">Our specialized support engineers are available for critical hospital escalations.</p>
       
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
-        <a href="tel:+" class="px-8 py-4 bg-white text-slate-900 rounded-2xl font-bold hover:bg-blue-500 hover:text-white transition shadow-lg">Call Engineering</a>
-        <a href="mailto:" class="px-8 py-4 bg-slate-700 text-white rounded-2xl font-bold hover:bg-slate-600 transition">Email Support</a>
+        <a href="tel:+255788296274" class="px-8 py-4 bg-white text-slate-900 rounded-2xl font-bold hover:bg-transparent hover:text-white transition shadow-lg">Call Engineering</a>
+        <a href="mailto:chachacollins8@gmail.com" class="px-8 py-4 bg-green-600 text-white rounded-2xl font-bold hover:bg-transparent transition">Email Support</a>
       </div>
     </div>
-  </footer>
+  </div>
 
 </div>
 
@@ -295,8 +293,8 @@
       <div class="lg:col-span-2">
         <h4 class="text-white font-mono text-[10px] font-black uppercase tracking-[0.4em] mb-10 text-blue-500">Directory</h4>
         <ul class="space-y-4">
-          <li><a href="#technical" class="text-slate-400 hover:text-white text-sm font-bold transition-all flex items-center gap-2 group"><span class="w-0 group-hover:w-2 h-px bg-blue-500 transition-all"></span> Technical Specs</a></li>
-          <li><a href="support.html" class="text-slate-400 hover:text-white text-sm font-bold transition-all flex items-center gap-2 group"><span class="w-0 group-hover:w-2 h-px bg-blue-500 transition-all"></span> Support Portal</a></li>
+          <li><a href="index.html#technical" class="text-slate-400 hover:text-white text-sm font-bold transition-all flex items-center gap-2 group"><span class="w-0 group-hover:w-2 h-px bg-blue-500 transition-all"></span> Technical Specs</a></li>
+          <li><a href="support.html#home" class="text-slate-400 hover:text-white text-sm font-bold transition-all flex items-center gap-2 group"><span class="w-0 group-hover:w-2 h-px bg-blue-500 transition-all"></span> Support Portal</a></li>
           <li><a href="privacy.html" class="text-slate-400 hover:text-white text-sm font-bold transition-all flex items-center gap-2 group"><span class="w-0 group-hover:w-2 h-px bg-blue-500 transition-all"></span> Privacy Policy</a></li>
          <li><a href="Ts&Cs.html" class="text-slate-400 hover:text-white text-sm font-bold transition-all flex items-center gap-2 group"><span class="w-0 group-hover:w-2 h-px bg-blue-500 transition-all"></span> Terms & Conditions </a></li>
          
